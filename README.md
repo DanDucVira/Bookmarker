@@ -1,5 +1,5 @@
 # Bookmarker
- a bookmarker to save your favorite websites.
+ A bookmarker to save your favorite websites.
 
 
 Version 1.5 14-08-2018
