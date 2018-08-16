@@ -84,9 +84,9 @@ function fetchBookmarks() {
         var name = bookmarks[i].name;
         var url = bookmarks[i].url;
 
-        bookmarksResults.innerHTML += '<div class=" m-3 p-3">' +
-            '<h3 class="m-3 text-left">' + name +
-            '<a class="btn btn-default mz-5 lead  " target="_blank" href="' + url + '">Visit</a>' +
+        bookmarksResults.innerHTML += '<div class=" m-3 p-3  ">' +
+            '<h3 class="m-3 text-center ">' + name +
+            ' <a class="btn btn-default " target="_blank" href="' + addhttp(url) + '">Visit</a> ' +
             '<a onclick="deleteBookmark(\'' + url + '\')" class="btn btn-danger "  href="#">Delete</a>' +
             '</h3>' +
             '</div>';
